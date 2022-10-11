@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Code - Contato</title>
+        <link rel="stylesheet" href="css/folhadeestilo.css">
+    </head>
+    <body class="color-page">
+        <div class="container-principal" id="topo">
+            <header>
+                <div class="logo">
+                    <a href="index.html"><img src="imagem/logo.png" alt="logo"></a>
+                </div>
+                <!--tag que representa a área de navegação-->
+                <nav>
+                    <ul>
+                        <li><a href="index.html">home</a></li>
+                        <li><a href="clientes.html">clientes</a></li>
+                        <li><a href="sobre.html">sobre</a></li>
+                        <li><a href="#topo">contato</a></li>
+                    </ul>
+                </nav>
+            </header>
+
+            <div class="img-titulo">
+                <img src="imagem/contato.png" alt="imagem de contato">
+            </div>
+
+            <section id="txt-contato">
+                <form name="formulario" id="meu-form">
+                    <p class="nome">
+                        <label for="nome">Nome:</label><br>
+                        <input type="text" id="nomeid" placeholder="Ex: Fulano da Silva" name="nome" required>
+                    </p>
+                    <p class="fone">
+                        <label for="fone">Fone:</label><br>
+                        <input type="phone" id="foneid" placeholder="(xx)xxxxx-xxxx" name="fone">
+                    </p>
+                    <p>
+                        <label for="email">Email:</label><br>
+                        <input type="email" id="emailid" placeholder="fulano@mail.com" name="email" required>
+                    </p>
+                    <p>
+                        <textarea placeholder="mensagem" requided="required"></textarea>
+                    </p>
+                    <button type="submit" form="formulario">Enviar</button>
+                </form>
+            
+                <div id="conta-data">
+                    <h4>Code - Desenvolvimento de Sites</h4>
+
+                    <h5><img src="imagem/icoadress.png" alt="endereço"><br>Avenida Novos Conhecimentos n° 2016</h5>
+                    
+                    <h5><img src="imagem/icoTelefone.png" alt="telefone"><br>+55 11 9999-9999</h5>
+
+                    <h5><img src="imagem/email2.png" alt="email"><br> contato@code.com.br</h5>
+
+                    <h5><img src="imagem/icoface.png" alt="face"><br>facebook.com/codedev</h5>
+
+                    <h5><img src="imagem/icoinsta.png" alt="insta"><br>@codedev</h5>
+                </div>
+            </section>
+        </div>
+    </body>
+</html>
